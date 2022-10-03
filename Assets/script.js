@@ -14,13 +14,22 @@ function timeColor(){
     console.log(currentTime);
 
 
-    var parsedId = parseInt($(".row").attr("id"));
     
-    for(parsedId; parsedId > 24; parsedId++){
-        if(parsedId === currentTime){
-            $(this).addClass("present");
-        }
+    
+    // console.log(this); //each time-block
+    
+   $(".wholeLine").each(function(){
+    console.log(this);
+    var parsedId = parseInt($(this).attr("id"));
+   
+    if (parsedId > currentTime){
+        $ (this).addClass("future");
+    }else if(parsedId === currentTime){
+        $(this).addClass("present");
+    }else {
+        $(this).addClass("past");
     }
+   })
     
 
 
