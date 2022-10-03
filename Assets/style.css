@@ -1,10 +1,20 @@
 
 body{
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(212, 220, 220);
+}
+
+.time{
+  border: 1px dotted ;
+  border-left: 0;
+  
+  
+  background-color: white;
+  
 }
 
 
-.save{
-  height: 20px;
-  width: 20px;
+.saveButton{
+  background-color: green;
 }
+
+
