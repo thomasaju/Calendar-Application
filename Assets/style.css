@@ -2,13 +2,14 @@
 body{
   background-color: rgb(212, 220, 220);
 }
+textarea,.time{
+  background: transparent;
+}
 
 .time{
   border: 1px dotted ;
   border-left: 0;
   
-  
-  background-color: white;
   
 }
 
@@ -18,7 +19,13 @@ body{
 }
 
 
-.present{
-  background-color: aquamarine;
+.past{
+  background-color: blueviolet;
 }
 
+.present{
+  background-color: rgb(65, 90, 82);
+}
+.future{
+  background-color: darkgrey;
+}
