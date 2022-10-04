@@ -2,7 +2,7 @@
 body{
   background-color: rgb(212, 220, 220);
 }
-textarea,.time{
+.text,.time{
   background: transparent;
 }
 
