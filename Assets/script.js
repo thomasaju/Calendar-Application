@@ -17,6 +17,12 @@ function timeColor(){
     var currentHour = moment().hour(); // this gives the hour. reference: https://www.geeksforgeeks.org/moment-js-moment-hour-method/#:~:text=The%20moment().,or%20to%20set%20the%20hours.&text=or-,moment,hours()%3B
     console.log(currentHour);
 
+    var parsedId = parseInt($(".row").attr("id")); //function parses a string argument and returns an integer 
+
+    for (parsedId =9; parsedId <= currentHour; parsedId++){
+        
+    }
+
 
     
 
