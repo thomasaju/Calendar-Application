@@ -21,11 +21,14 @@ textarea,.time{
 
 .past{
   background-color: blueviolet;
+  color: white;
 }
 
 .present{
   background-color: rgb(65, 90, 82);
+  color: white;
 }
 .future{
   background-color: darkgrey;
+  color: white;
 }
