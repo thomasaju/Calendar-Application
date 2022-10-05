@@ -33,7 +33,7 @@ function timeColor(){
     })
 
 }
-$(".saveButton").click(function(){
+$(".saveButton").on ("click",function(){
    
 console.log(this);
 //sibling() . This brother method returns all elements of same parent.
@@ -49,11 +49,11 @@ localStorage.setItem(hour, notes);
 
   
 timeColor();
-
+var timeHours = [9,10,11,12,13]
 //to get the item from local storage
-$("#9 .text").val(localStorage.getItem("9"));
+// $("#9 .text").val(localStorage.getItem("9"));
 
-
+console.log(localStorage);
 
 
 
