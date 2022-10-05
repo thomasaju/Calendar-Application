@@ -1,6 +1,4 @@
 
-var saveButton = $(".saveButton");
-
 
 
 // to display time in paragraph id= currentDay(on top).
@@ -37,8 +35,13 @@ function timeColor(){
 }
 $(".saveButton").click(function(){
    
+console.log(this);
+//sibling() . This brother method returns all elements of same parent.
+//in this taking the value of savebutton's sibling div text area.
 var notes = $(this).siblings(".text").val();
+
 var hour = $(this).parent().attr("id");
+
 
 localStorage.setItem(hour, notes);
 
@@ -47,8 +50,8 @@ localStorage.setItem(hour, notes);
   
 timeColor();
 
-
-
+//to get the item from local storage
+$("#9 .text").val(localStorage.getItem("9"));
 
 
 
