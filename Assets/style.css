@@ -20,15 +20,15 @@ body{
 
 
 .past{
-  background-color: blueviolet;
+  background-color: rgb(239, 87, 11);
   color: white;
 }
 
 .present{
-  background-color: rgb(65, 90, 82);
+  background-color: rgb(6, 189, 49);
   color: white;
 }
 .future{
-  background-color: darkgrey;
+  background-color: rgb(194, 228, 23);
   color: white;
 }
