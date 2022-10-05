@@ -49,11 +49,20 @@ localStorage.setItem(hour, notes);
 
   
 timeColor();
-var timeHours = [9,10,11,12,13]
-//to get the item from local storage
-// $("#9 .text").val(localStorage.getItem("9"));
 
-console.log(localStorage);
+//to get the item from local storage
+$("#9 .text").val(localStorage.getItem("9"));
+$("#10 .text").val(localStorage.getItem("10"));
+$("#11 .text").val(localStorage.getItem("11"));
+$("#12 .text").val(localStorage.getItem("12"));
+$("#13 .text").val(localStorage.getItem("13"));
+$("#14 .text").val(localStorage.getItem("14"));
+$("#15 .text").val(localStorage.getItem("15"));
+$("#16 .text").val(localStorage.getItem("16"));
+$("#17 .text").val(localStorage.getItem("17"));
+$("#18 .text").val(localStorage.getItem("18"));
+
+
 
 
 
