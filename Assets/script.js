@@ -24,7 +24,7 @@ function timeColor(){
     console.log(parsedId);
 
 
-        //if statement to check the condition and to make class.
+        //if statement to check the condition and make class according currenthour.
         if(parsedId > currentHour){
             $(this).addClass("future")
         } if (parsedId === currentHour){
@@ -35,23 +35,16 @@ function timeColor(){
     })
 
 }
-saveButton.on("click", function(event){
-    event.preventDefault();
+$(".saveButton").click(function(){
+   
+var notes = $(this).siblings(".text").val();
+var hour = $(this).parent().attr("id");
 
-    console.log(this);
-
-
-    
-
-localStorage.setItem(hour,notes);
+localStorage.setItem(hour, notes);
 
 })
 
-
-
-
-
-   
+  
 timeColor();
 
 
