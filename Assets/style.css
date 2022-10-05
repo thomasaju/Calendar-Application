@@ -1,6 +1,10 @@
 
 body{
   background-color: rgb(212, 220, 220);
+  background-image: url("../Images/AJU.jpg");
+ 
+
+
 }
 .text,.time{
   background: transparent;

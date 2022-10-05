@@ -39,12 +39,11 @@ saveButton.on("click", function(event){
     event.preventDefault();
 
     console.log(this);
-    var hour = $(this).text(".time");
-    var notes = $(this).text(".text");
-    var hhour = JSON.stringify(hour);
-    var nnotes = JSON.stringify(notes);
 
-localStorage.setItem(hhour,nnotes);
+
+    
+
+localStorage.setItem(hour,notes);
 
 })
 
