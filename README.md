@@ -17,4 +17,5 @@ On top of the website today's Date & Time will be displayed.
 
 # ScreenShot
 
+<img width="1512" alt="Screen Shot 2022-10-06 at 10 56 30 am" src="https://user-images.githubusercontent.com/109736323/194188530-5a306013-b6f1-402e-8173-f03b08c77f6f.png">
 
