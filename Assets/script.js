@@ -42,7 +42,7 @@ var notes = $(this).siblings(".text").val();
 
 var hour = $(this).parent().attr("id");
 
-
+//to the local storage
 localStorage.setItem(hour, notes);
 
 })
@@ -50,7 +50,8 @@ localStorage.setItem(hour, notes);
   
 timeColor();
 
-//to get the item from local storage
+
+// from the local Storage
 $("#9 .text").val(localStorage.getItem("9"));
 $("#10 .text").val(localStorage.getItem("10"));
 $("#11 .text").val(localStorage.getItem("11"));
@@ -61,8 +62,6 @@ $("#15 .text").val(localStorage.getItem("15"));
 $("#16 .text").val(localStorage.getItem("16"));
 $("#17 .text").val(localStorage.getItem("17"));
 $("#18 .text").val(localStorage.getItem("18"));
-
-
 
 
 
